@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1682C3A-9CBB-40DE-BF82-19C91BB350E6}|src\\Course.Data\\Course.Data.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.data\\context\\meudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1682C3A-9CBB-40DE-BF82-19C91BB350E6}|src\\Course.Data\\Course.Data.csproj|solutionrelative:src\\course.data\\context\\meudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C733E2A-0AE4-463B-9F4F-FCDE05017309}|src\\Course.Business\\Course.Business.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.business\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C733E2A-0AE4-463B-9F4F-FCDE05017309}|src\\Course.Business\\Course.Business.csproj|solutionrelative:src\\course.business\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Business\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "src\\Course.Business\\Models\\Produto.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Business\\Models\\Produto.cs",
+              "RelativeToolTip": "src\\Course.Business\\Models\\Produto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T23:26:57.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MeuDbContext.cs",
               "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Data\\Context\\MeuDbContext.cs",
               "RelativeDocumentMoniker": "src\\Course.Data\\Context\\MeuDbContext.cs",
               "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Data\\Context\\MeuDbContext.cs",
               "RelativeToolTip": "src\\Course.Data\\Context\\MeuDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T23:15:21.321Z",
+              "WhenOpened": "2025-11-21T23:23:29.31Z",
               "EditorCaption": ""
             }
           ]
