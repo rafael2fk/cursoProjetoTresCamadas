@@ -8,7 +8,8 @@ namespace Course.Business.Services
     {
         private readonly IFornecedorRepository _fornecedorRepository;
 
-        public FornecedorService(IFornecedorRepository fornecedorRepository)
+        public FornecedorService(IFornecedorRepository fornecedorRepository,
+                                 INotificador notificador) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
         }
