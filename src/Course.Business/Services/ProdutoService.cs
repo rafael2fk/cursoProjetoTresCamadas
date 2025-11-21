@@ -1,6 +1,7 @@
 ﻿
 using Course.Business.Interfaces;
 using Course.Business.Models;
+using Course.Business.Models.Validations;
 
 namespace Course.Business.Services
 {
@@ -15,11 +16,15 @@ namespace Course.Business.Services
 
         public async Task Adicionar(Produto produto)
         {
+            if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
+
             await _produtoRepository.Adicionar(produto);
         }
 
         public async Task Atualizar(Produto produto)
         {
+            if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
+
             await _produtoRepository.Atualizar(produto);
         }
 

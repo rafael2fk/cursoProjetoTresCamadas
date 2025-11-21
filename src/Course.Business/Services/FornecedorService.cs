@@ -1,5 +1,6 @@
 ﻿using Course.Business.Interfaces;
 using Course.Business.Models;
+using Course.Business.Models.Validations;
 
 namespace Course.Business.Services
 {
@@ -16,6 +17,9 @@ namespace Course.Business.Services
         {
             // Validar se a entidade é consistente ..
 
+            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)
+                || !ExecutarValidacao(new EnderecoValidation(), fornecedor.Endereco)) return;
+
             // Validar se ja nao existe outro fornecedor com o mesmo doc.
 
             await _fornecedorRepository.Adicionar(fornecedor);
@@ -23,6 +27,8 @@ namespace Course.Business.Services
 
         public async Task Atualizar(Fornecedor fornecedor)
         {
+            if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)) return;
+
             await _fornecedorRepository.Atualizar(fornecedor);
         }
 

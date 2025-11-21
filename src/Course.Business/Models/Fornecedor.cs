@@ -11,6 +11,6 @@ namespace Course.Business.Models
 
         public bool Ativo { get; set; }
 
-        public Endereco? Endreco { get; set; }
+        public Endereco? Endereco { get; set; }
     }
 }
