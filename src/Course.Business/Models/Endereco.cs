@@ -16,5 +16,8 @@ namespace Course.Business.Models
         public string? Cidade { get; set; }
 
         public string? Estado { get; set; }
+
+        // EF Relation
+        public Fornecedor Fornecedor { get; set; }
     }
 }
