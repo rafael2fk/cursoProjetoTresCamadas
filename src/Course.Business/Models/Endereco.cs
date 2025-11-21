@@ -1,7 +1,7 @@
 ﻿
 namespace Course.Business.Models
 {
-    public class Endreco : Entity
+    public class Endereco : Entity
     {
         public string? Logradouro { get; set; }
 

@@ -3,7 +3,7 @@ namespace Course.Business.Models
 {
     public class Fornecedor : Entity
     {
-        public string? Name { get; set; }
+        public string? Nome { get; set; }
 
         public string? Documento { get; set; }
 
@@ -11,6 +11,6 @@ namespace Course.Business.Models
 
         public bool Ativo { get; set; }
 
-        public Endreco? Endreco { get; set; }
+        public Endereco? Endreco { get; set; }
     }
 }

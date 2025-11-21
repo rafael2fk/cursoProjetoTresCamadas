@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GvOku81ZEyo=",
+  "dgSpecHash": "GTRcc4dcyMI=",
   "success": true,
   "projectFilePath": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTrêsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Business\\Course.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
