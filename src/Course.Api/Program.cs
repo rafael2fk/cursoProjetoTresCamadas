@@ -1,5 +1,6 @@
 using Course.Api.Configurations;
 using Course.Data.Context;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<MeuDbContext>(o =>
          o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(typeof(AutomapperConfig));
 
 builder.Services.ResolveDependencies();
 
