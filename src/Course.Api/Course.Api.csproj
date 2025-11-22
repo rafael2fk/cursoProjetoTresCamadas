@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Course.Data\Course.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
