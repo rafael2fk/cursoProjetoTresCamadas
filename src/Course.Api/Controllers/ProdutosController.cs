@@ -3,6 +3,7 @@ using Course.Api.ViewModels;
 using Course.Business.Interfaces;
 using Course.Business.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace Course.Api.Controllers
 {
@@ -15,7 +16,8 @@ namespace Course.Api.Controllers
 
         public ProdutosController(IProdutoRepository produtoRepository,
                                   IProdutoService produtoService,
-                                  IMapper mapper)
+                                  IMapper mapper,
+                                  INotificador notificador) : base(notificador)
         {
             _produtoRepository = produtoRepository;
             _produtoService = produtoService;
@@ -45,7 +47,7 @@ namespace Course.Api.Controllers
 
             await _produtoService.Adicionar(_mapper.Map<Produto>(produtoViewModel));
 
-            return CustomResponse(produtoViewModel);
+            return CustomResponse(HttpStatusCode.Created, produtoViewModel);
         }
 
         [HttpPut("{id:guid}")]
@@ -69,7 +71,7 @@ namespace Course.Api.Controllers
 
             await _produtoService.Atualizar(_mapper.Map<Produto>(produtoAtualizacao));
 
-            return CustomResponse();
+            return CustomResponse(HttpStatusCode.NoContent);
         }
 
         [HttpDelete("{id:guid}")]
@@ -81,7 +83,7 @@ namespace Course.Api.Controllers
 
             await _produtoService.Remover(id);
 
-            return CustomResponse();
+            return CustomResponse(HttpStatusCode.NoContent);
         }
 
         private async Task<ProdutoViewModel> ObterProduto(Guid id)

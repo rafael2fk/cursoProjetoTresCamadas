@@ -3,7 +3,8 @@
   "WorkspaceRootPath": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Downloads\\348EA229-B2B7-494C-B588-2BD6ED47F697-01 - TodosOsProjetos\\M05A06 - Funcionalidades de neg\u00F3cio\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|solutionrelative:src\\course.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.api\\controllers\\fornecedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -12,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|solutionrelative:src\\course.api\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\10 - projetandoemtr\u00EAscamadas - in progress\\02 - projetocourse\\apitrescamadas\\src\\course.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558EE873-CDBC-4C69-BAE7-9650665D5DFB}|src\\Course.Api\\Course.Api.csproj|solutionrelative:src\\course.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,19 +34,36 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FornecedoresController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\348EA229-B2B7-494C-B588-2BD6ED47F697-01 - TodosOsProjetos\\M05A06 - Funcionalidades de neg\u00F3cio\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Users\\pc\\Downloads\\348EA229-B2B7-494C-B588-2BD6ED47F697-01 - TodosOsProjetos\\M05A06 - Funcionalidades de neg\u00F3cio\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\348EA229-B2B7-494C-B588-2BD6ED47F697-01 - TodosOsProjetos\\M05A06 - Funcionalidades de neg\u00F3cio\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Users\\pc\\Downloads\\348EA229-B2B7-494C-B588-2BD6ED47F697-01 - TodosOsProjetos\\M05A06 - Funcionalidades de neg\u00F3cio\\ApiTresCamadas\\src\\DevIO.Api\\Controllers\\FornecedoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\FornecedoresController.cs",
+              "RelativeDocumentMoniker": "src\\Course.Api\\Controllers\\FornecedoresController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\FornecedoresController.cs",
+              "RelativeToolTip": "src\\Course.Api\\Controllers\\FornecedoresController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:59:15.185Z",
+              "WhenOpened": "2025-11-22T15:13:56.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\Course.Api\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\Course.Api\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:13:12.095Z",
               "EditorCaption": ""
             },
             {
@@ -60,35 +74,9 @@
               "RelativeDocumentMoniker": "src\\Course.Api\\Controllers\\MainController.cs",
               "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\MainController.cs",
               "RelativeToolTip": "src\\Course.Api\\Controllers\\MainController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwCQAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:58:53.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "src\\Course.Api\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "src\\Course.Api\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:58:52.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FornecedoresController.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\FornecedoresController.cs",
-              "RelativeDocumentMoniker": "src\\Course.Api\\Controllers\\FornecedoresController.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\10 - projetandoEmTr\u00EAsCamadas - in progress\\02 - projetoCourse\\ApiTresCamadas\\src\\Course.Api\\Controllers\\FornecedoresController.cs",
-              "RelativeToolTip": "src\\Course.Api\\Controllers\\FornecedoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:58:52.381Z",
+              "WhenOpened": "2025-11-22T15:11:10.047Z",
               "EditorCaption": ""
             }
           ]
